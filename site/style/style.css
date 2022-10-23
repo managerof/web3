@@ -1,4 +1,42 @@
-* {
+body {
     margin: 0;
-    padding: 0;
+    font-family: poppins, sans-serif;
 }
+
+.container {
+margin: 0px 44px;
+    
+}
+
+.header-logo {
+    margin-right: 650px
+}
+
+
+.header-line {
+  padding-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   
+}
+
+.nav-item {
+ color: #2E104D;
+ text-decoration: none;
+font-weight: 400;
+font-size: 18px;
+
+margin-right: 48px;
+
+}
+
+.button {
+    border-radius: 20px;
+    background-color: #E88B00;
+    color: #fff;
+    text-decoration: none;
+    padding: 8.5px 19px
+    
+}
+ 
