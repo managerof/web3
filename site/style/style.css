@@ -1,7 +1,12 @@
 body {
     margin: 0;
     font-family: poppins, sans-serif;
-    
+    height: 4242px;
+    width: 1440px;
+
+
+
+
 }
 
 .container {
@@ -10,15 +15,21 @@ margin: 0px 44px;
 }
 
 .header-logo {
-    margin-right: 650px
+    margin-right: 650px;
+    height: 21px;
+    width: 100px;
+    padding-bottom: 26px;
+    
+
 }
 
 
 .header-line {
-  padding-top: 26px;
+    padding-top: 26px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 23px;
    
 }
 
@@ -37,9 +48,14 @@ margin-right: 48px;
     background-color: #E88B00;
     color: #fff;
     text-decoration: none;
-    padding: 8.5px 19px
-    
+    padding: 8.5px 19px    
 }
+
+.line-bg {
+    box-shadow: 100 100px 100px #2E104D;
+    height: 1010px;
+}
+
 
 .header-down {
     position: relative;
@@ -61,6 +77,12 @@ margin-right: 48px;
     text-align: left;
 }
 
+.block {
+    height: 1010px;
+    background: linear-gradient(36.4deg, #7953E6 5.77%, rgba(255, 225, 119, 0) 147.25%);
+    padding-top: 90px;
+}
+
 .header-text {
     font-size: 16px;
     font-weight: 400;
@@ -71,4 +93,17 @@ margin-right: 48px;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+}
+
+.header-subtext:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 596;
+    color: rgb(0, 0, 0);
+}
+hr {
+    height: 3px;
+    border-radius: 100px;
+    color: #ECECECD9;
 }
